@@ -31,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('http://localhost:8000/web-data', {
+        fetch('https://telebot.anibar.tech/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
